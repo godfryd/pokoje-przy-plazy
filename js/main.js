@@ -950,9 +950,8 @@
             //Map pin-window details
             var title = "Pokoje przy Plaży Sopot - Kliknij żeby zobaczyć";
             var hotel_name = "Pokoje przy Plaży Sopot";
-            var hotel_address = "Grunwaldzka 52, Sopot, Polska";
-            var hotel_desc = "5 star deluxe Hotel";
-            var hotel_more_desc = "Lorem ipsum dolor sit amet, consectetur.";
+            var hotel_address = "ul Grunwaldzka 52";
+            var hotel_desc = "81-771 Sopot, Polska";
 
             var hotel_location = new google.maps.LatLng(var_latitude, var_longitude);
             var mapOptions = {
@@ -968,7 +967,6 @@
                 '<p><strong>' + hotel_name + '</strong><br>' +
                 hotel_address + '<br>' +
                 hotel_desc + '<br>' +
-                hotel_more_desc + '</p>' +
                 '</div>';
 
             var var_infowindow = new google.maps.InfoWindow({
