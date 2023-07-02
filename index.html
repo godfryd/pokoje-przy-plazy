@@ -91,8 +91,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.svg" height="32" alt="Logo Pokoje przy Plaży Sopot">
+                    <a class="navbar-brand" href="index.html" style="display: flex; align-items: center;">
+                        <img src="images/umbr-beach-logo2.svg" alt="Logo Pokoje przy Plaży Sopot">
+                        <div style="display: inline-block; padding-left: 2rem; font-size: 3.5rem; font-weight: bold;">
+                            Pokoje przy Plaży Sopot
+                        </div>
                     </a>
                 </div>
                 <nav id="main_menu" class="mobile_menu navbar-collapse">
@@ -102,11 +105,10 @@
                         <li class="dropdown simple_menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">POKOJE <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="rooms-list.html">Rooms List View</a></li>
-                                <li><a href="rooms-grid.html">Rooms Grid View</a></li>
-                                <li><a href="rooms-block.html">Rooms Block View</a></li>
-                                <li><a href="room.html">Room Details 1</a></li>
-                                <li><a href="room2.html">Room Details 2</a></li>
+                                <li><a href="rooms-list.html">Wszystkie</a></li>
+                                <li><a href="room-1.html">Pokój 1 Dwuosobowy</a></li>
+                                <li><a href="room-2.html">Pokój 2 Trzyosobowy</a></li>
+                                <li><a href="room-3.html">Pokój 3 Trzyosobowy</a></li>
                             </ul>
                         </li>
                         <li><a href="contact.html">kontakt</a></li>
@@ -124,7 +126,7 @@
                     <!-- SLIDE NR. 1 -->
                     <li data-transition="crossfade">
                         <!-- MAIN IMAGE -->
-                        <img src="images/istockphoto-molo.jpg"
+                        <img src="images/slider/istockphoto-molo.jpg"
                              alt="Image"
                              title="slider_bg2"
                              data-bgposition="center center"
@@ -144,7 +146,7 @@
                              data-lineheight="['60','50','40','30']"
                              data-whitespace="nowrap"
                              data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                             style="z-index: 5; color: #fff; font-weight: 900;"> WELCOME TO HOTEL ZANTE </div>
+                             style="z-index: 5; color: #fff; font-weight: 900;text-shadow: #40391E 1px 0 10px;"> Pokoje przy Plaży Sopot </div>
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption tp-resizeme"
                              data-x="center"
@@ -523,74 +525,59 @@
                 </ul>
             </div>
 
-
-            <!-- ========== ABOUT & ROOMS ========== -->
-            <section id="about_rooms">
+            <!-- ========== ROOMS ========== -->
+            <section class="white_bg" id="rooms">
                 <div class="container">
+                    <div class="main_title mt_wave mt_yellow a_center">
+                        <h2>Nasze Pokoje</h2>
+                    </div>
+                    <p class="main_description a_center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
                     <div class="row">
-
                         <div class="col-md-4">
-                            <div id="about">
-                                <div class="main_title mt_wave a_left">
-                                    <h2>O POKOJACH PRZY PLAŻY SOPOT</h2>
-                                </div>
-                                <p class="main_description a_left">Obiekt Pokoje przy Plaży Sopot położony jest w miejscowości Sopot i oferuje różne opcje zakwaterowania, w których zapewniono bezpłatne WiFi oraz telewizor z płaskim ekranem. Odległość ważnych miejsc od obiektu: Plaża Sopot – 300 m, Plaża Jelitkowo – 1,8 km. W pobliżu obiektu Pokoje przy Plaży Sopot znajdują się liczne atrakcje, takie jak Krzywy Domek, Sopockie Molo i Stacja kolejowa Sopot. Najbliższe lotnisko, Lotnisko Gdańsk-Rębiechowo, znajduje się 19 km od obiektu Pokoje przy Plaży Sopot.</p>
-                            </div>
+                            <article class="room">
+                                <figure>
+                                    <div class="price">~350 zł <span>/ noc</span></div>
+                                    <a class="hover_effect h_blue h_link" href="room-1.html">
+                                        <img src="images/rooms/31_Sopot_Apart-3_s.jpg" class="img-responsive" alt="Image">
+                                    </a>
+                                    <figcaption>
+                                        <h4><a href="room.html">Pokój 1 Dwuosobowy</a></h4>
+                                        <span class="f_right"><a href="rooms-1.html" class="button btn_sm btn_blue">Zobacz</a></span>
+                                    </figcaption>
+                                </figure>
+                            </article>
                         </div>
-
-                        <div class="col-md-8">
-                            <div id="rooms">
-                                <div class="main_title mt_wave a_left">
-                                    <h2>OUR FAVORITE ROOMS</h2>
-                                </div>
-                                    <p class="main_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <article class="room">
-                                            <figure>
-                                                <div class="price">€89 <span>/ night</span></div>
-                                                <a class="hover_effect h_blue h_link" href="room.html">
-                                                    <img src="images/rooms/single-room.jpg" class="img-responsive" alt="Image">
-                                                </a>
-                                                <figcaption>
-                                                    <h5><a href="room.html">Single Room</a></h5>
-                                                    <span class="f_right"><a href="rooms-list.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
-                                                </figcaption>
-                                            </figure>
-                                        </article>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <article class="room">
-                                            <figure>
-                                                <div class="price">€129 <span>/ night</span></div>
-                                                <a class="hover_effect h_blue h_link" href="room.html">
-                                                    <img src="images/rooms/double-room.jpg" class="img-responsive" alt="Image">
-                                                </a>
-                                                <figcaption>
-                                                    <h5><a href="room.html">Double Room</a></h5>
-                                                    <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
-                                                </figcaption>
-                                            </figure>
-                                        </article>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <article class="room">
-                                            <figure>
-                                                <div class="price"> € 189 <span>/ night</span></div>
-                                                <a class="hover_effect h_blue h_link" href="room.html">
-                                                    <img src="images/rooms/deluxe-room.jpg" class="img-responsive" alt="Image">
-                                                </a>
-                                                <figcaption>
-                                                    <h5><a href="room.html">Delux Room</a></h5>
-                                                    <span class="f_right"><a href="room.html" class="button btn_xs btn_blue">VIEW DETAILS</a></span>
-                                                </figcaption>
-                                            </figure>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-md-4">
+                            <article class="room">
+                                <figure>
+                                    <div class="price">~350 zł <span>/ noc</span></div>
+                                    <a class="hover_effect h_blue h_link" href="room-2.html">
+                                        <img src="images/rooms/16_Sopot_Apart-2_s.jpg" class="img-responsive" alt="Image">
+                                    </a>
+                                    <figcaption>
+                                        <h4><a href="room.html">Pokój 2 Trzyosobowy</a></h4>
+                                        <span class="f_right"><a href="room-2.html" class="button btn_sm btn_blue">Zobacz</a></span>
+                                    </figcaption>
+                                </figure>
+                            </article>
                         </div>
-
+                        <div class="col-md-4">
+                            <article class="room">
+                                <figure>
+                                    <div class="price">~350 zł <span>/ noc</span></div>
+                                    <a class="hover_effect h_blue h_link" href="room-3.html">
+                                        <img src="images/rooms/01_Sopot_Apart-1_s.jpg" class="img-responsive" alt="Image">
+                                    </a>
+                                    <figcaption>
+                                        <h4><a href="room.html">Pokój 3 Trzyosobowy</a></h4>
+                                        <span class="f_right"><a href="room-3.html" class="button btn_sm btn_blue">Zobacz</a></span>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="mt40 a_center">
+                        <a class="button btn_sm btn_yellow" href="rooms-list.html">LISTA WSZYSTKICH POKOJÓW</a>
                     </div>
                 </div>
             </section>
@@ -599,9 +586,9 @@
             <section class="lightgrey_bg" id="features">
                 <div class="container">
                     <div class="main_title mt_wave a_center">
-                        <h2>OUR AWESOME SERVICES</h2>
+                        <h2>Nasz obiekt</h2>
                     </div>
-                    <p class="main_description a_center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                    <p class="main_description a_center">Obiekt Pokoje przy Plaży Sopot położony jest w miejscowości Sopot i oferuje różne opcje zakwaterowania, w których zapewniono bezpłatne WiFi oraz telewizor z płaskim ekranem. Odległość ważnych miejsc od obiektu: Plaża Sopot – 300 m, Plaża Jelitkowo – 1,8 km. W pobliżu obiektu Pokoje przy Plaży Sopot znajdują się liczne atrakcje, takie jak Krzywy Domek, Sopockie Molo i Stacja kolejowa Sopot. Najbliższe lotnisko, Lotnisko Gdańsk-Rębiechowo, znajduje się 19 km od obiektu Pokoje przy Plaży Sopot.</p>
 
                     <div class="row">
                         <div class="col-md-7">

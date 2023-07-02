@@ -1931,10 +1931,15 @@ header.transparent.nav_bg {
 }
 
 header .navbar-header .navbar-brand {
-    padding: 15px 0;
-    margin-top: 15px;
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 64px;
     -webkit-transition: all .3s;
     transition: all .3s;
+}
+
+header .navbar-header .navbar-brand > img {
+    display: inline-block
 }
 
 header.scroll .navbar-header .navbar-brand {
@@ -3622,7 +3627,7 @@ footer.dark .subfooter .social_media a {
 }
 .page_title .price {
     float: right;
-    width: 70px;
+    width: 100px;
     height: 70px;
     margin-top: 10px;
     border-radius: 4px;
@@ -3632,7 +3637,7 @@ footer.dark .subfooter .social_media a {
 .page_title .price .inner {
     margin: -5px;
     background-color: #deb666;
-    width: 70px;
+    width: 100px;
     height: 70px;
     border-radius: 4px;
     font-size: 1.5em;
@@ -3644,7 +3649,7 @@ footer.dark .subfooter .social_media a {
 
 .page_title .price span {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .page_title .breadcrumb {
@@ -5061,7 +5066,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 
 .similar_rooms article .price {
     background: #deb666;
-    width: 50px;
+    width: 70px;
     height: 50px;
     border-radius: 4px;
     color: #fff;
@@ -5073,7 +5078,6 @@ figure:hover .room_list_slider .owl-nav .owl-next {
     line-height: 1em;
     padding: 10px 0;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .similar_rooms article .price span {
