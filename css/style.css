@@ -2792,6 +2792,10 @@ section .main_title {
     padding-top: 30px;
 }
 
+#testimonials_style_2 .review_author img {
+    width: 10rem;
+}
+
 #testimonials #testimonials_slider .owl-dots {
     margin-top: 40px;
     position: relative;
