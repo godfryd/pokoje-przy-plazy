@@ -4,13 +4,13 @@
 * Author Name: Jomin Muskaj (Eagle-Themes)
 * Author URI: eagle-themes.com
 =================================================*/
- 
+
  @media only screen and (min-width: 320px) {}
  /* Extra Small Devices, Phones */
- 
+
  @media only screen and (min-width: 480px) {}
  /* Small Devices, Tablets */
- 
+
  @media only screen and (min-width: 769px) {
      .room_list .room_details {
          display: -webkit-box;
@@ -51,9 +51,9 @@
          padding-right: 5px !important;
          padding-left: 0px !important;
      }
-     
+
      .boxed header {
-         margin: 0 auto; 
+         margin: 0 auto;
          width: 1200px;
      }
      .container {
@@ -76,7 +76,7 @@
      #main_menu {
          position: relative;
      }
-     
+
  }
 
  /* Large Devices, Wide Screens */
@@ -90,12 +90,12 @@
      }
  }
 
- /* Large Devices, Wide Screens */ 
+ /* Large Devices, Wide Screens */
  @media only screen and (max-width: 1200px) {
      #rooms_block_view .room_block_item .room_info {
          padding: 15px;
      }
- 
+
  }
 
  /* Medium Devices, Desktops */
@@ -103,7 +103,7 @@
      .top_menu .top_menu_right li {
          float: none;
      }
-     
+
      header .navbar-header {
          margin: 0 !important;
      }
@@ -171,7 +171,7 @@
      header.scroll.transparent .navbar-header .navbar-brand {
          padding: 18px 0;
      }
-     .mobile_menu .navbar-nav { 
+     .mobile_menu .navbar-nav {
          margin: 0;
      }
      .mobile-menu-push {
@@ -337,19 +337,19 @@
      #blog .blog_item .main {
          padding: 15px;
      }
-     
+
     #testimonials_style_2 .review_item {
         margin-bottom: 50px;
     }
-     
+
     .room {
         margin-bottom: 30px;
     }
-     
+
      .room_list .room_details .room_desc {
          padding: 15px 15px;
      }
-     
+
     /*========== EVENT DETAILS PAGE ==========*/
     #hero_event #countdown .count_box {
         padding: 10px 25px;
@@ -374,36 +374,37 @@
      .hbf_3 .hbf_3_inner .form-control {
          margin-bottom: 15px;
      }
-     
+
      #contact .contact-items {
          margin-top: 30px;
      }
-     
+
      /*========== PAGES ==========*/
      #events_page .item .event-wrapper {
          text-align: center;
      }
-     .menu_item .info { 
+     .menu_item .info {
          padding: 10px;
      }
-     
+
      .special_offers {
          margin-top: 80px;
      }
-     
+
  }
 
  /* Small Devices, Tablets */
  @media only screen and (max-width: 768px) {
      header.transparent {
-         top: 10px; 
+         top: 10px;
      }
      #features .owl-thumb-item.active:before {
          display: none;
      }
-     .room_list .room_details .room_services {
+/*     .room_list .room_details .room_services {
          text-align: center;
      }
+*/
      #rooms_block_view .room_block_item .room_info {
          padding: 15px;
      }
@@ -424,7 +425,7 @@
      .main_description.a_center {
          padding: 0;
      }
-     
+
      /*========== PAGE TITLE ==========*/
      .page_title .price {
          margin: 0 auto !important;
@@ -432,11 +433,11 @@
          position: relative;
          bottom: -75px;
      }
-     
+
      #hero_coming_soon #countdown .count_box {
          margin-right: 20px;
      }
-     
+
      #hero_coming_soon #countdown .count_box:last-child {
          margin-right: 0;
      }
@@ -446,7 +447,7 @@
      .countup_box {
          margin-bottom: 0;
          margin-top: 30px;
-     } 
+     }
      .countup_box,
      .countup_box .inner {
          width: 100%;
@@ -501,7 +502,7 @@
      .vbf {
          border-radius: 0;
      }
-     
+
      #hero_event #countdown .count_box {
         padding: 10px 15px;
         margin: 0 10px;
