@@ -105,7 +105,7 @@
      }
 
      header .navbar-header {
-         margin: 0 !important;
+         margin: 0 0 15px 0 !important;
      }
      header .navbar-header .navbar-brand {
          padding: 10px 0;

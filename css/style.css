@@ -3657,7 +3657,7 @@ footer.dark .subfooter .social_media a {
 }
 
 .page_title .breadcrumb {
-    font-size: .9em;
+    font-size: 1em;
     background: none;
     color: #a9a9a9;
     margin: 0;
@@ -4810,13 +4810,17 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 .room_list .room_details .room_services i {
     background: #deb666;
     padding: 5px 12px;
-    margin: 5px 18px 5px 5px;
+    margin: 5px 5px 5px 5px;
     font-size: 1.2em;
     color: #fff;
     border: 1px solid #deb666;
     border-radius: 2px;
     cursor: pointer;
     width: 5rem;
+}
+
+.room_list .room_details .room_services_side i {
+    margin: 5px 15px 5px 5px !important;
 }
 
 .room_list .room_details .room_services i:hover {
@@ -4996,7 +5000,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .room_facilitys_list {
-    margin-top: 35px;
+    margin-top: 5px;
     padding-bottom: 10px;
 }
 
