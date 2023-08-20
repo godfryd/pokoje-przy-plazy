@@ -945,7 +945,7 @@
             var panorama;
             var var_latitude = 54.440949132863324; // Google Map Latitude
             var var_longitude = 18.57190622878337; // Google Map Longitude
-            var pin = 'images/icons/pin.svg';
+            var pin = 'images/icons/pin2.svg';
 
             //Map pin-window details
             var title = "Pokoje przy Plaży Sopot - Kliknij żeby zobaczyć";
