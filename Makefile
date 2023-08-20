@@ -1,4 +1,4 @@
-files = index.html rooms-list.html room-1.html contact.html
+files = index.html rooms-list.html room-1.html room-2.html room-3.html room-4.html room-5.html room-6.html contact.html
 
 all: $(files)
 

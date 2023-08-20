@@ -84,7 +84,7 @@
                     <ul class="nav navbar-nav">
                         <li class="mobile_menu_title" style="display:none;">MENU</li>
                         <li class=""><a href="index.html">Strona Główna</a></li>
-                        <li class="dropdown simple_menu ">
+                        <li class="dropdown simple_menu active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">POKOJE <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="rooms-list.html">Wszystkie</a></li>
@@ -96,7 +96,7 @@
                                 <li><a href="room-6.html">Pokój 6 Czteroosobowy</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="contact.html">kontakt</a></li>
+                        <li class=""><a href="contact.html">kontakt</a></li>
                         <li class="menu_button">
                             <a href="tel:+48608042298" class="button  btn_yellow"><i class="fa fa-phone"></i>+48 608042298</a>
                         </li>
@@ -107,90 +107,175 @@
 
 
 
-        <!-- =========== GOOGLE MAP ========== -->
-        <div id="map">
-            <div id="google-map">
-<!--                <button class="button  openmap-btn" id="openStreetView">Toggle Street View</button> -->
-            </div>
-            <div id="map-canvas"></div>
-        </div>
-
-        <!-- ========== MAIN ========== -->
-        <main id="contact_page">
+        <!-- =========== PAGE TITLE ========== istockphoto-1096866554-1024x1024.jpg istockphoto-1394032424-1024x1024.jpg -->
+        <div class="page_title gradient_overlay" style="background: url(images/iStock-1096866554-e.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
             <div class="container">
-                <div class="row">
-
-                    <div class="col-md-8">
-                        <div class="main_title a_left">
-                            <h2>Skontaktuj się z nami</h2>
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <h1>Pokój 5 Dwuosobowy</h1>
+                            <ol class="breadcrumb">
+                                <li><a href="index.html">Strona główna</a></li>
+                                <li><a href="rooms-list.html">Pokoje</a></li>
+                                <li>Pokój 5 Dwuosobowy</li>
+                            </ol>
                         </div>
-                        <form id="contact-form-page">
-                            <div class="row">
-                                <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Imię i nazwisko</label>
-                                    <input type="text" class="form-control" name="name" placeholder="Imię i nazwisko">
-                                </div>
-                                <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Telefon</label>
-                                    <input type="text" class="form-control" name="phone" placeholder="Telefon">
-                                </div>
-                                <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Email</label>
-                                    <input type="email" class="form-control" name="email" placeholder="Email">
-                                </div>
-                                <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Temat</label>
-                                    <input type="text" class="form-control" name="subject" placeholder="Temat">
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label class="control-label">Wiadomość</label>
-                                    <textarea class="form-control" name="message" placeholder="Twoja wiadomość..."></textarea>
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <button type="submit" class="button  btn_blue mt40 upper pull-right">
-                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Wyślij
-                                    </button>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="price">
+                                <div class="inner">
+                                    ~300 zł <span>za noc</span>
                                 </div>
                             </div>
-                        </form>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="main_title a_left">
-                            <h2>Nasz namiar</h2>
                         </div>
-                        <ul class="contact-info upper">
-                            <li>
-                                <span>ADRES:</span>
-                                ul. Grunwaldzka 52<br/>
-                                81-771 Sopot, Polska
-                            </li>
-                            <li>
-                                <span>EMAIL:</span>
-                                <a href="mailto:kontakt@pokojeprzyplazy.pl">kontakt@pokojeprzyplazy.pl</a>
-                            </li>
-                            <li>
-                                <span>WEB:</span>
-                                <a href="http://pokojeprzyplazy.pl">http://pokojeprzyplazy.pl</a>
-                            </li>
-                            <li>
-                                <span>PHONE:</span>
-                                <a href="tel:+48608042298">+48 608 042 298</a>
-                            </li>
-                            <li>
-                                <span>QR CODE:</span>
-                                <img src="images/qrcode-vcard.png" style="width: 200px;" alt="QR Code">
-                            </li>
-                        </ul>
-                        <!-- <div class="social_media"> -->
-                        <!--     <a class="facebook" href="#"><i class="fa fa-facebook"></i></a> -->
-                        <!--     <a class="twitter" href="#"><i class="fa fa-twitter"></i></a> -->
-                        <!--     <a class="googleplus" href="#"><i class="fa fa-google-plus"></i></a> -->
-                        <!--     <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a> -->
-                        <!--     <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a> -->
-                        <!--     <a class="youtube" href="#"><i class="fa fa-youtube"></i></a> -->
-                        <!--     <a class="instagram" href="#"><i class="fa fa-instagram"></i></a> -->
-                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =========== MAIN ========== -->
+        <main id="room_page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="slider">
+                            <div id="slider-larg" class="owl-carousel image-gallery">
+                                <!-- ITEM 750x400 -->
+                                <div class="item lightbox-image-icon">
+                                    <a href="images/rooms/31_Sopot_Apart-3_s.jpg" class="hover_effect h_lightbox h_blue">
+                                        <img class="img-responsive" src="images/rooms/31_Sopot_Apart-3_s.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <!-- ITEM -->
+                                <div class="item lightbox-image-icon">
+                                    <a href="images/rooms/32_Sopot_Apart-3_s.jpg" class="hover_effect h_lightbox h_blue">
+                                        <img class="img-responsive" src="images/rooms/32_Sopot_Apart-3_s.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <!-- ITEM -->
+                                <div class="item lightbox-image-icon">
+                                    <a href="images/rooms/33_Sopot_Apart-3_s.jpg" class="hover_effect h_lightbox h_blue">
+                                        <img class="img-responsive" src="images/rooms/33_Sopot_Apart-3_s.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <!-- ITEM -->
+                                <div class="item lightbox-image-icon">
+                                    <a href="images/rooms/35_Sopot_Apart-3_s.jpg" class="hover_effect h_lightbox h_blue">
+                                        <img class="img-responsive" src="images/rooms/35_Sopot_Apart-3_s.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <!-- ITEM -->
+                                <div class="item lightbox-image-icon">
+                                    <a href="images/rooms/37_Sopot_Apart-3_s.jpg" class="hover_effect h_lightbox h_blue">
+                                        <img class="img-responsive" src="images/rooms/37_Sopot_Apart-3_s.jpg" alt="Image">
+                                    </a>
+                                </div>
+                                <!-- ITEM -->
+                                <div class="item lightbox-image-icon">
+                                    <a href="images/rooms/41_Sopot_Apart-3_s.jpg" class="hover_effect h_lightbox h_blue">
+                                        <img class="img-responsive" src="images/rooms/41_Sopot_Apart-3_s.jpg" alt="Image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="thumbs" class="owl-carousel">
+                                <!-- ITEM 116x66 -->
+                                <div class="item"><img class="img-responsive" src="images/rooms/31_Sopot_Apart-3_s-thumb.jpg" alt="Image"></div>
+                                <!-- ITEM -->
+                                <div class="item"><img class="img-responsive" src="images/rooms/32_Sopot_Apart-3_s-thumb.jpg" alt="Image"></div>
+                                <!-- ITEM -->
+                                <div class="item"><img class="img-responsive" src="images/rooms/33_Sopot_Apart-3_s-thumb.jpg" alt="Image"></div>
+                                <!-- ITEM -->
+                                <div class="item"><img class="img-responsive" src="images/rooms/35_Sopot_Apart-3_s-thumb.jpg" alt="Image"></div>
+                                <!-- ITEM -->
+                                <div class="item"><img class="img-responsive" src="images/rooms/37_Sopot_Apart-3_s-thumb.jpg" alt="Image"></div>
+                                <!-- ITEM -->
+                                <div class="item"><img class="img-responsive" src="images/rooms/41_Sopot_Apart-3_s-thumb.jpg" alt="Image"></div>
+                            </div>
+                        </div>
+                        <p class="mt50">
+                            Romantyczny weekend we dwoje, citybreak, czy  krótki, służbowy wyjazd - ten pokój to dobry wybór na odwiedziny Sopotu.
+                        </p>
+                        <p>
+                            Pokój idealny na komfortowy pobyt nad morzem dla jednej lub dwóch osób.
+                            W pokoju (o powierzchni ok. 12m2) znajduje się łóżko podwójne o szerokości 140 cm,
+                            łazienka z prysznicem i suszarką, lodówka, TV, czajnik, ręczniki.
+                        </p>
+
+                        <div class="similar_rooms">
+                            <div class="main_title t_style5 l_blue s_title a_left">
+                                <div class="c_inner">
+                                    <h2 class="c_title">Podobne pokoje</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <article>
+                                        <figure>
+                                            <a href="room-1.html" class="hover_effect h_blue h_link"><img src="images/rooms/16_Sopot_Apart-2_s.jpg" alt="Image" class="img-responsive"></a>
+                                            <div class="price">~300 zł<span> noc</span></div>
+                                            <figcaption>
+                                                <h4><a href="room-3.html">Pokój 2 Trzyosobowy</a></h4>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                </div>
+                                <div class="col-md-4">
+                                    <article>
+                                        <figure>
+                                            <a href="room-4.html" class="hover_effect h_blue h_link"><img src="images/rooms/01_Sopot_Apart-1_s.jpg" alt="Image" class="img-responsive"></a>
+                                            <div class="price">~300 zł<span> noc</span></div>
+                                            <figcaption>
+                                                <h4><a href="room-3.html">Pokój 3 Trzyosobowy</a></h4>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <article> -->
+                                    <!--     <figure> -->
+                                    <!--         <a href="room.html" class="hover_effect h_blue h_link"><img src="images/rooms/deluxe-room.jpg" alt="Image" class="img-responsive"></a> -->
+                                    <!--         <div class="price">€189<span> night</span></div> -->
+                                    <!--         <figcaption> -->
+                                    <!--             <h4><a href="room.html">Deluxe Room </a></h4> -->
+                                    <!--         </figcaption> -->
+                                    <!--     </figure> -->
+                                    <!-- </article> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <aside class="widget">
+                                <div class="vbf">
+                                    <h2 class="form_title"><i class="fa fa-building-o"></i> Udogodnienia</h2>
+                                    <div class="room_facilitys_list room_list" style="margin-bottom: 0px;">
+                                        <div class="all_facility_list room_details">
+                                            <div class="col-sm-12">
+                                                <div class="room_services room_services_side">
+                                                    <div><i class="fa fa-users"></i>2 osoby</div>
+                                                    <div><i class="fa fa-arrows"></i>17 m2</div>
+                                                    <div><i class="fa fa-bed"></i>Łóżko dwuosobowe</div>
+                                                    <div><i class="fa fa-wifi"></i>Free Wi-Fi</div>
+                                                    <div><i class="fa fa-tv"></i>TV z Netflix i YouTube</div>
+                                                    <div><i class="fa fa-cutlery"></i>Lodówka i czajnik</div>
+                                                    <div><i class="fa fa-shower"></i>Prywatna łazienka z prysznicem</div>
+                                                    <div><i class="fa pkj-wardrobe"></i>Szafa</div>
+                                                    <div><i class="fa pkj-hair-dryer"></i>Suszarka do włosów</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <aside class="widget">
+                                <h4>Potrzebna pomoc?</h4>
+                                <div class="help">
+                                    Jeśli masz jakieś pytania, nie wahaj się skontakować z nami i pytać
+                                    <div class="phone"><i class="fa  fa-phone"></i><a href="tel:+48608042298"> +48 608 042 298 </a></div>
+                                    <div class="email"><i class="fa  fa-envelope-o "></i><a href="mailto:kontakt@pokojeprzyplazy.pl">kontakt@pokojeprzyplazy.pl</a> albo użyj <a href="contact.html"> formularza kontaktowego</a></div>
+                                </div>
+                            </aside>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -258,7 +343,6 @@
                 </div>
 
         </footer>
-
     </div>
 
     <!-- ========== BACK TO TOP ========== -->
