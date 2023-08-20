@@ -991,12 +991,12 @@
                 pitch: 0
             }));
 
-            var openStreet = document.getElementById('openStreetView');
-            if (openStreet) {
-                document.getElementById("openStreetView").onclick = function () {
-                    toggleStreetView()
-                };
-            }
+//            var openStreet = document.getElementById('openStreetView');
+//            if (openStreet) {
+//                document.getElementById("openStreetView").onclick = function () {
+//                    toggleStreetView()
+//                };
+//            }
 
             function toggleStreetView() {
                 var toggle = panorama.getVisible();
