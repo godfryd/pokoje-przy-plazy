@@ -813,7 +813,7 @@
             };
 
             //Ajax post data to server
-            $.post('https://contact-form.godfryd.workers.dev/contact', post_data, function (response) {
+            $.post('/contact-us', post_data, function (response) {
 
                 //Response server message
                 if (response.type == 'error') {
