@@ -24,7 +24,7 @@ export function onRequest(context) {
             ],
         }),
     })
-    console.log('sending mail', send_request)
+    console.log('sending mail', JSON.stringify(send_request))
 
     return new Response('{"text": "Wiadomość wysłana!", "type": "ok"}',
                         {
