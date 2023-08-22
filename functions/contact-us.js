@@ -1,4 +1,4 @@
-export function onRequest(context) {
+export function onRequest(context, env) {
     var payload = {
         "personalizations": [
             {
@@ -22,7 +22,7 @@ export function onRequest(context) {
     };
     var myHeaders = new Headers({
         "Content-Type": "application/json",
-        "Authorization": "Bearer YOUR_API_KEY",
+        "Authorization": "Bearer " + env.API_KEY,
     });
     var data = new FormData();
     data.append( "json", JSON.stringify( payload ) );
