@@ -1,4 +1,5 @@
 export function onRequest(context) {
+    console.log('sending mail 1')
     var send_request = new Request('https://api.mailchannels.net/tx/v1/send', {
         method: 'POST',
         headers: {
@@ -23,6 +24,7 @@ export function onRequest(context) {
             ],
         }),
     })
+    console.log('sending mail', send_request)
 
     return new Response('{"text": "Wiadomość wysłana!", "type": "ok"}',
                         {
