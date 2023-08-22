@@ -44,7 +44,7 @@ export function onRequest(context) {
         msg.asRaw()
     );
     try {
-        await context.env.SEB.send(message);
+        context.env.SEB.send(message);
     } catch (e) {
         return new Response(e.message);
     }
