@@ -26,15 +26,24 @@ export function onRequest(context) {
     });
     var data = new FormData();
     data.append( "json", JSON.stringify( payload ) );
-    fetch("https://api.sendgrid.com/v3/mail/send",
-          {
-              method: "POST",
-              headers: myHeaders,
-              body: data
-          })
-        .then(function(res){ return res.json(); })
-        .then(function(data){ console.log( JSON.stringify( data ) ) })
 
+    console.info('sending')
+
+    var resp = fetch("https://api.sendgrid.com/v3/mail/send",
+                     {
+                         method: "POST",
+                         headers: myHeaders,
+                         body: data
+                     })
+        .then(function(res) {
+            console.info('OK RESP')
+            return res.json();
+        })
+        .then(function(data) {
+            console.log( JSON.stringify( data ) )
+        })
+
+    console.info('sent', JSON.stringify(resp))
 
 
     return new Response('{"text": "Wiadomość wysłana!", "type": "ok"}',
