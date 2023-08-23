@@ -85,7 +85,7 @@ export async function onRequestPost(context) {
             ]
         }),
     });
-    console.info('email 2', resp)
+    console.info('email 2', JSON.stringify(resp))
 
     return new Response('{"text": "Wiadomość wysłana!", "type": "ok"}',
                         {
