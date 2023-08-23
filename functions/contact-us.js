@@ -55,35 +55,18 @@
 // }
 
 export async function onRequestPost(context) {
-//export const onRequestPost: Func = async (context) => {
     console.info('email 1')
-    var resp = await fetch("https://api.sendgrid.com/v3/mail/send", {
+    const dataIn = await context.request.formData();
+    console.info('email 1a', JSON.stringify(formdata))
+
+    const dataOut = new FormData();
+    dataOut.append('access_key', context.env.ACCESS_KEY);
+    dataOut.append('email', 'godfryd@gmail.com');
+    dataOut.append('subject', 'aaaa');
+
+    var resp = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: {
-            Authorization: `Bearer ${context.env.API_KEY}`,
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-            "personalizations": [
-                {
-                    "to": [
-                        {
-                            "email": "godfryd@gmail.com"
-                        }
-                    ],
-                    "subject": "Hello, World!"
-                }
-            ],
-            "from": {
-                "email": "kontakt@pokojeprzyplazy.pl"
-            },
-            "content": [
-                {
-                    "type": "text/plain",
-                    "value": "Hello, World!"
-                }
-            ]
-        }),
+        body: dataOut,
     });
     console.info('email 2', JSON.stringify(resp))
 
