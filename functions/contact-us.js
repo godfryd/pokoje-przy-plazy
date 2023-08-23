@@ -57,7 +57,7 @@
 export async function onRequestPost(context) {
     console.info('email 1')
     const dataIn = await context.request.formData();
-    console.info('email 1a', JSON.stringify(formdata))
+    console.info('email 1a', JSON.stringify(dataIn))
 
     const dataOut = new FormData();
     dataOut.append('access_key', context.env.ACCESS_KEY);
