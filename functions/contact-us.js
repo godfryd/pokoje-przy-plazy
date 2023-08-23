@@ -62,10 +62,10 @@ export async function onRequestPost(context) {
     const dataOut = new FormData();
     dataOut.append('access_key', context.env.ACCESS_KEY);
     dataOut.append('email', dataIn.get('user_email'));
-    dataOut.append('name': dataIn.get('user_name'));
-    dataOut.append('message': dataIn.get('user_message'));
-    dataOut.append('phone': dataIn.get('user_phone'));
-    dataOut.append('subject': dataIn.get('user_subject'));
+    dataOut.append('name', dataIn.get('user_name'));
+    dataOut.append('message', dataIn.get('user_message'));
+    dataOut.append('phone', dataIn.get('user_phone'));
+    dataOut.append('subject', dataIn.get('user_subject'));
 
     var resp = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
