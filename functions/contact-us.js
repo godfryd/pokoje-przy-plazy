@@ -54,7 +54,8 @@
 //                         })
 // }
 
-export const onRequestPost: Func = async (context) => {
+export async function onRequestPost(context) {
+//export const onRequestPost: Func = async (context) => {
     console.info('email 1')
     var resp = await fetch("https://api.sendgrid.com/v3/mail/send", {
         method: "POST",
