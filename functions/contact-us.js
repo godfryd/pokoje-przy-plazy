@@ -57,8 +57,7 @@
 export async function onRequestPost(context) {
 //export const onRequestPost: Func = async (context) => {
     console.info('email 1')
-    //var resp = await fetch("https://api.sendgrid.com/v3/mail/send", {
-    var resp = await fetch("https://pokoje.free.beeceptor.com/email", {
+    var resp = await fetch("https://api.sendgrid.com/v3/mail/send", {
         method: "POST",
         headers: {
             Authorization: `Bearer ${context.env.API_KEY}`,
