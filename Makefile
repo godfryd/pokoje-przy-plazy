@@ -6,7 +6,7 @@ $(files): parts-footer.html parts-top.html
 
 $(files): %.html: %.tpl.html
 #	j2 $< -o $@
-	jinja2 -D high_price=190 -D low_price=190 $< -o $@
+	jinja2 -D high_price=210 -D low_price=210 $< -o $@
 
 run:
 	find . -name '*html' | entr make
