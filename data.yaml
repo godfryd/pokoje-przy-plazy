@@ -1,0 +1,39 @@
+high_price: 250
+low_price: 230
+imgs:
+  r1:
+    - pok-1-20240604_144754a.jpg
+    - pok-1-20240604_144820a.jpg
+    - pok-1-36_Sopot_Apart-3_s.jpg
+    - pok-1-37_Sopot_Apart-3_s.jpg
+    - pok-1-41_Sopot_Apart-3_s.jpg
+  r2:
+    - pok-2-20240601_113433a.jpg
+    - pok-2-20240601_113251a.jpg
+    - pok-2-20240601_113302a.jpg
+    - pok-2-20240601_113319a.jpg
+    - pok-2-24_Sopot_Apart-2_s.jpg
+    - pok-2-27_Sopot_Apart-2_s.jpg
+  r3:
+    - pok-3-20240601_114129a.jpg
+    - pok-3-20240601_114147a.jpg
+    - pok-3-20240601_114206a.jpg
+    - pok-3-13_Sopot_Apart-1_s.jpg
+    - pok-3-14_Sopot_Apart-1_s.jpg
+  r4:
+    - pok-4-20230423_190958-e.jpg
+    - pok-4-20230423_191031-e.jpg
+    - pok-4-20230423_190837-e.jpg
+  r5:
+    - pok-5-483117041-w.jpg
+    - pok-5-483117036-w.jpg
+    - pok-5-483117048-w.jpg
+    - pok-5-483117027-w.jpg
+    - pok-5-483117009-w.jpg
+  r6:
+    - pok-6-1338-w.jpg
+    - pok-6-1319-w.jpg
+    - pok-6-1936-w.jpg
+    - pok-6-2930-w.jpg
+    - pok-6-3131-w.jpg
+    - pok-6-2625-w.jpg
