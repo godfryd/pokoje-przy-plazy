@@ -2,7 +2,7 @@ files = index.html rooms-list.html room-1.html room-2.html room-3.html room-4.ht
 
 all: $(files)
 
-$(files): parts-footer.html parts-top.html Makefile data.yaml
+$(files): parts-head.html parts-footer.html parts-top.html Makefile data.yaml
 
 $(files): %.html: %.tpl.html
 #	j2 $< -o $@

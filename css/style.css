@@ -2058,6 +2058,19 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
     color: #fff !important;
 }
 
+#main_menu .navbar-nav .webspeaker_navbar {
+    margin-top: 22px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+#webspeaker-navbar-container input,
+#webspeaker-navbar-container textarea {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
 #main_menu .navbar-nav .menu_button .button:hover,
 #main_menu .navbar-nav .menu_button .button:focus,
 #main_menu .navbar-nav .menu_button .button:active {
@@ -2067,6 +2080,10 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 }
 
 .scroll #main_menu .navbar-nav .menu_button .button {
+    margin-top: 12px;
+}
+
+.scroll #main_menu .navbar-nav .webspeaker_navbar {
     margin-top: 12px;
 }
 
